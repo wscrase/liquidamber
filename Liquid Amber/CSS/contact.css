@@ -1,0 +1,59 @@
+/* Ensure form labels are aligned to the left */
+form .form-label {
+    text-align: left;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.contact-info a i {
+    font-size: 1.5rem;  /* Adjust icon size */
+    margin-right: 5px;  /* Space between icon and text */
+}
+
+.contact-info a {
+    text-decoration: none;  /* Remove underlines from links */
+    color: inherit;  /* Keep the color of the text */
+}
+
+/* Contact Information Section */
+.contact-info p {
+    font-family: 'Roboto', sans-serif;  /* Use a clean, modern sans-serif font for clarity */
+    font-size: 1rem;  /* Ensure the text is readable */
+    color: #5D4037;  /* Brown tone to match the natural, earthy feel */
+    margin-bottom: 10px;  /* Add space between lines for readability */
+}
+
+/* Highlight strong text for better emphasis */
+.contact-info strong {
+    color: #2E7D32;  /* Green to match branding */
+    font-weight: 600;  /* Make the labels bolder */
+}
+
+/* Make the phone number, email, and address appear in a more structured layout */
+.contact-info {
+    font-size: 1.1rem;  /* Slightly larger text for clarity */
+    line-height: 1.6;  /* Improve line spacing for better readability */
+    margin-top: 20px;  /* Add some space at the top of the section */
+}
+
+/* Optional: Add a small icon next to each contact detail */
+.contact-info p i {
+    color: #2E7D32;  /* Green icon color */
+    margin-right: 10px;  /* Space between icon and text */
+}
+
+
+h4 {
+    font-family: 'Playfair Display', serif;  /* Match the font to the headings on other pages */
+    font-size: 1.5rem;  /* Adjust font size to make it consistent with other headings */
+    font-weight: 500;  /* Make it bold, similar to other headings */
+    color: #2E7D32;  /* Green color for consistency with the site's branding */
+    margin-bottom: 10px;  /* Add some spacing below the heading */
+    text-align: left;  /* Ensure the heading is aligned to the left */
+}
+
+/* Optional: Add a subtle underline or bottom border for emphasis */
+h4 {
+    border-bottom: 2px solid #2E7D32;  /* Green underline for a cleaner look */
+    padding-bottom: 5px;  /* Space between the heading and underline */
+}

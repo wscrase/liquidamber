@@ -1,0 +1,251 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Playfair+Display:wght@700&display=swap');
+
+/* General Styles */
+body {
+    background-color: #F4F1EB; /* Warm, natural off-white */
+    font-family: 'Roboto', sans-serif;
+    color: #333; /* Dark grey for readability */
+    margin: 0;
+    padding: 0;
+}
+
+/* Headings */
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    color: #2E7D32; /* Deep forest green */
+}
+
+
+
+#logo {
+    width: 200px;  /* Set the width */
+    height: auto;  /* Maintain aspect ratio */
+}
+
+
+/* Navigation Pills */
+.nav-pills-custom .nav-link {
+    color: #2E7D32;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-pills-custom .nav-link.active,
+.nav-pills-custom .nav-link:hover {
+    background-color: #5D4037; /* Natural wood brown */
+    color: #FAF3E0;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #2E7D32;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #5D4037;
+    color: #FAF3E0;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Hero Section */
+
+.hero-section {
+    background-color: #F4F1EB !important; /* Match the rest of the site */
+    padding: 80px 0; /* Keep it compact */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Container to keep everything centered */
+.hero-section .container {
+    max-width: 800px;
+    margin-bottom: 10px; /* Reduced space between Hero and About Us */
+}
+
+/* Headings */
+.hero-section h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;  /* Increase font size */
+    font-weight: 700;  /* Make it bold */
+    color: #2E7D32;  /* Green, matches branding */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);  /* Add shadow for emphasis */
+}
+
+
+.hero-section h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #5D4037; /* Brown tone for a natural feel */
+    margin-top: 10px;
+}
+
+/* Button */
+.hero-section .btn-primary {
+    background-color: #2E7D32;
+    color: white;
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.hero-section .btn-primary:hover {
+    background-color: #5D4037;
+}
+
+/* Divider Style */
+.section-divider {
+    border: 0;
+    border-top: 2px solid #5D4037; /* Natural wood brown */
+    width: 50%;
+    margin: 40px auto; /* Center the divider and add spacing above and below */
+}
+
+
+/* Section Styling */
+.top-div {
+    background-color: #2E7D32;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+    border-radius: 12px;
+}
+
+/* Featurette Styling */
+.featurette {
+    margin: 40px 0;
+}
+
+.featurette-heading {
+    font-size: 2rem;
+    color: #2E7D32;
+}
+
+.featurette-divider {
+    border-top: 3px solid #5D4037;
+    margin: 30px 0;
+}
+
+/* Image Styling */
+.main-image, .shadow-effect {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.main-image img, .shadow-effect img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Why Choose Us Section */
+.why-choose-us {
+    background-color: #F4F1EB; /* Matches site background */
+    padding: 60px 0;
+}
+
+.why-choose-us h2 {
+    font-size: 2.2rem;
+    font-family: 'Playfair Display', serif;
+    color: #2E7D32;
+    margin-bottom: 30px;
+}
+
+.why-choose-us .col-md-4 {
+    padding: 20px;
+}
+
+.why-choose-us img {
+    width: 70px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.why-choose-us h4 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #5D4037; /* Warm brown */
+}
+
+.why-choose-us p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Call-to-Action Banner */
+.cta-banner {
+    background-color: #2E7D32; /* Deep green */
+    color: #FAF3E0; /* Light cream */
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.cta-banner h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #FFF8E1; /* Slightly lighter for contrast */
+}
+
+.cta-banner p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.cta-banner .btn-primary {
+    background-color: #FAF3E0;
+    color: #2E7D32;
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.cta-banner .btn-primary:hover {
+    background-color: #FFF8E1;
+    color: #5D4037;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Footer */
+.footer {
+    background-color: #F4F1EB !important; /* Light cream, matches the rest of the site */
+    padding: 30px 20px;
+    color: #5D4037 !important; /* Warm brown */
+    text-align: center; /* Ensure all content is centered */
+    width: 100%; /* Ensure it takes full width */
+}
+
+/* Footer Paragraphs */
+.footer p {
+    margin-bottom: 10px;
+    color: #5D4037 !important;
+}
+
+/* Footer Text Links */
+.footer .text-success {
+    color: #2E7D32 !important; /* Deep forest green */
+    text-decoration: none;
+}
+
+.footer .text-success:hover {
+    color: #5D4037 !important; /* Dark brown for hover effect */
+}
+
+/* Address Styling */
+footer .address {
+    font-size: 1rem; /* Slightly larger text for address */
+    margin-top: 15px;
+    color: #5D4037 !important; /* Matches the brown color theme */
+}

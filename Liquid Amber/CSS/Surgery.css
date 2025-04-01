@@ -1,0 +1,83 @@
+.TreeSurgery {
+    max-width: 1200px;  /* Keeps content at a readable width on large screens */
+    margin: 0 auto;     /* Centers the section */
+    padding: 0 20px;    /* Prevents content from touching screen edges */
+}
+
+/* Adjust for tablets */
+@media (max-width: 992px) { 
+    .TreeSurgery {
+        max-width: 90%; /* Allows more flexibility on medium screens */
+    }
+}
+
+/* Adjust for mobile screens */
+@media (max-width: 768px) { 
+    .SurgeryType {
+        flex-direction: column; /* Stacks text and image vertically */
+        text-align: center; /* Centers text for better readability */
+    }
+    
+    .SurgeryText, .SurgeryImage {
+        width: 100%; /* Ensures both take full width */
+    }
+
+    .SurgeryImage img {
+        max-width: 80%; /* Prevents oversized images on small screens */
+        margin: 0 auto; /* Centers the image */
+    }
+}
+
+
+.SurgeryType {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px; /* Adds space below each section */
+    gap: 20px; /* Adds spacing between text and image */
+}
+
+.SurgeryText, .SurgeryImage {
+    width: 50%;
+}
+
+.SurgeryImage img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.surgery-title-section {
+    background-color: #F4F1EB !important; /* Match the rest of the site */
+    padding: 80px 0; /* Keep it compact */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Container to keep everything centered */
+.surgery-title-section .container {
+    max-width: 800px;
+    margin-bottom: 10px; /* Reduced space between Hero and About Us */
+}
+
+/* Headings */
+.surgery-title-section h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;  /* Increase font size */
+    font-weight: 500;  /* Make it bold */
+    color: #2E7D32;  /* Green, matches branding */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);  /* Add shadow for emphasis */
+}
+
+
+.surgery-title-section p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #5D4037; /* Brown tone for a natural feel */
+    margin-top: 10px;
+}
+
+
+
